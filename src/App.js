@@ -1,11 +1,9 @@
-import './App.css';
-import Messanger from './Components/Messanger/Messanger';
-function App() {
+import AppWindow from "./Components/AppWindow";
+
+export default function App() {
   return (
-    <div className="App">
-      <Messanger/>      
+    <div className="">
+      <AppWindow />
     </div>
   );
 }
-
-export default App;
