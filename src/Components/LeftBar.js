@@ -1,11 +1,13 @@
 import React from 'react'
-import ChatTab from './ChatTab'
+import ChatTabsContainer from './ChatTab'
+import LeftBarMenu from './LeftBarMenu'
 
 export default function LeftBar() {
 
     return (
-        <div>
-            <ChatTab />
+        <div className='grow max-w-sm'>
+            <LeftBarMenu />
+            <ChatTabsContainer />
         </div>
     )
 }
